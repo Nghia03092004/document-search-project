@@ -20,21 +20,21 @@ A high-performance document search engine designed to crawl, process, and index 
 ```text
 document-search-project/
 ├─ crawl/
-│  └─ crawl_vnexpress.py   # Web crawler script
+│  └─ crawl_vnexpress.py   
 ├─ data/
-│  ├─ crawl/               # Raw data (articles.csv)
-│  └─ processed/           # Processed text chunks (chunks.csv)
+│  ├─ crawl/               
+│  └─ processed/           
 ├─ preprocess/
-│  └─ clean_text.py        # Text cleaning and normalization
+│  └─ clean_text.py      
 ├─ search/
-│  ├─ build_index.py       # FAISS index generation
-│  └─ search.py            # Search logic and CLI interface
+│  ├─ build_index.py       
+│  └─ search.py            
 ├─ api/
-│  └─ app.py               # Optional Flask API
+│  └─ app.py              
 ├─ app/
-│  └─ streamlit_app.py     # Streamlit web application
-├─ requirements.txt        # Project dependencies
-└─ README.md               # Project documentation
+│  └─ streamlit_app.py     
+├─ requirements.txt        
+└─ README.md              
 ```
 
 🛠️ Installation
