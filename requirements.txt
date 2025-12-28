@@ -1,0 +1,12 @@
+requests
+beautifulsoup4
+lxml
+pandas
+numpy
+tqdm
+scikit-learn
+sentence-transformers
+faiss-cpu
+fastapi
+uvicorn
+streamlit
