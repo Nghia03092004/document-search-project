@@ -9,7 +9,7 @@ top_k = st.slider("Number results", 1, 10, 3)
 
 if st.button("Search"):
     r = requests.post(
-        "http://127.0.0.1:8000/query",
+        "https://document-search-project-api.onrender.com/query",
         json={"query": query, "top_k": top_k}
     )
 
