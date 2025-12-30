@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-st.title("📰 Vietnamese News Search")
+st.title("Vietnamese News Search")
 
 query = st.text_input("Input key words")
 
@@ -9,7 +9,7 @@ top_k = st.slider("Number results", 1, 10, 3)
 
 if st.button("Search"):
     r = requests.post(
-        "https://document-search-project-api.onrender.com/query",
+        url = "http://127.0.0.1:8000/query",
         json={"query": query, "top_k": top_k}
     )
 
