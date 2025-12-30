@@ -62,7 +62,7 @@ venv\Scripts\activate
 ```
 ### Linux/Mac
 ```bash
-venv/bin/activate
+source venv/bin/activate
 ```
 #### Install Dependencies:
 ```bash
@@ -112,5 +112,3 @@ The search quality depends heavily on the embedding model used in build_index.py
 
 This project can be easily upgraded to a RAG (Retrieval-Augmented Generation) pipeline by connecting it to an LLM like GPT-4 or Gemini.
 
-## 📄 License
-This project is licensed under the MIT License.
